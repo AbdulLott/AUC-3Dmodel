@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>AfriUrban</title>
+<title>Bellville</title>
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <base target="_blank">
 <link rel="stylesheet" type="text/css" href="./Qgis2threejs.css">
@@ -95,7 +95,7 @@
 </div>
 
 <!-- header and footer -->
-<div id="header"></div>
+<div id="header">Bellville Buildings CBD</div>
 <div id="footer"></div>
 
 <!-- layer panel -->
@@ -114,6 +114,8 @@
 <script>
 Q3D.Config.allVisible = true;
 Q3D.Config.localMode = true;
+Q3D.Config.northArrow.enabled = true;
+Q3D.Config.northArrow.color = 0x666666;
 
 var container = document.getElementById("view"),
     app = Q3D.application,
